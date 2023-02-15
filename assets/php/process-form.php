@@ -29,7 +29,7 @@ $headers .= "Content-Type: text/plain; charset=utf-8\r\n";
 $headers .= "Content-Transfer-Encoding: 8bit\r\n";
 
 // Send the email
-if (mail($Singhamandeepsaini@hotmail.com, $subject, $body, $headers)) {
+if (mail($to, $subject, $body, $headers)) {
   header("Location: contact.php?status=success");
 } else {
   header("Location: contact.php?status=error");
