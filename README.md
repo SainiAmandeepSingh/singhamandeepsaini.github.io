@@ -5,7 +5,7 @@ This repository contains a static portfolio site built with HTML, CSS and JavaSc
 ## Setting up the contact form
 
 1. Create a free account on Formspree and generate a form endpoint.
-2. Edit `index.html` and replace the sample endpoint (`https://formspree.io/f/xyzjekpg`) in the form `action` attribute with your own Formspree URL.
+2. Edit `index.html` and replace the sample endpoint (`https://formspree.io/f/`) in the form `action` attribute with your own Formspree URL.
 3. Deploy the site (e.g. GitHub Pages or Netlify). Form submissions will be delivered to the email configured in Formspree.
 
 ## Development
