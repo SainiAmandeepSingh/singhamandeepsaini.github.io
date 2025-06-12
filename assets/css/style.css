@@ -408,7 +408,9 @@ input{
 }
 
 .about__img{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     border-radius: 0.75rem;
     justify-self: center;
 }
@@ -912,7 +914,8 @@ textarea.input{
     }
 
     .about__img{
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
     }
 
     .about__data{
@@ -949,7 +952,8 @@ textarea.input{
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
     .about__img{
-        width: 250px;
+        width: 100%;
+        max-width: 250px;
     }
 
     .qualification__container{
@@ -1009,7 +1013,8 @@ textarea.input{
 
     .home__img{
         display: block;
-        width: 250px;
+        width: 100%;
+        max-width: 250px;
         justify-self: center;
     }
 
@@ -1066,9 +1071,10 @@ textarea.input{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
-
     .home__img{
-        width: 200px;
+        width: 100%;
+        max-width: 200px;
+        justify-self: center;
     }
 
     .home__title{
