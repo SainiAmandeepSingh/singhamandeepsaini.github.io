@@ -1,0 +1,13 @@
+{
+  "name": "singhamandeepsaini.github.io",
+  "version": "1.0.0",
+  "description": "This repository contains a static portfolio site built with HTML, CSS and JavaScript. The contact form was previously handled by a PHP script but now uses [Formspree](https://formspree.io/) so it can be hosted for free on static hosting services.",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
